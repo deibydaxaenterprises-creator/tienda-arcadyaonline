@@ -1,4 +1,3 @@
-// ArcadyaOnline
 document.documentElement.classList.add("motion-ready");
 
 document.addEventListener("DOMContentLoaded", () => {
