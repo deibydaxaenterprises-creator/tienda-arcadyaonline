@@ -1,7 +1,3 @@
-/* ========================================
-   ARCADYAONLINE — TIENDA OFICIAL
-   Identidad: naranja / dorado, estilo premium
-======================================== */
 :root {
     --bg: #100b07;
     --bg-alt: #16100a;
@@ -150,7 +146,6 @@ html.motion-ready .product-detail-info.is-visible {
     }
 }
 
-/* ===== TOP BAR ===== */
 .topbar {
     background: #0b0705;
     border-bottom: 1px solid var(--border);
@@ -166,7 +161,6 @@ html.motion-ready .product-detail-info.is-visible {
 .topbar-inner span { display: inline-flex; align-items: center; gap: 6px; }
 .topbar-inner strong { color: var(--gold); font-weight: 600; }
 
-/* ===== HEADER ===== */
 header {
     background: rgba(16, 11, 7, 0.92);
     border-bottom: 1px solid var(--border);
@@ -212,7 +206,6 @@ header {
 }
 .discord-btn:hover { filter: brightness(1.08); }
 
-/* ===== HERO (home) ===== */
 .hero-split {
     max-width: 1360px; margin: 0 auto; padding: 64px 24px 56px;
     display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center;
@@ -268,7 +261,6 @@ header {
     animation: ring-pulse 8s ease-in-out 1.2s infinite;
 }
 
-/* ===== HERO (categorías) — banner compacto ===== */
 .category-banner {
     max-width: 1360px; margin: 0 auto; padding: 40px 24px 8px;
     display: flex; align-items: center; gap: 20px; position: relative; z-index: 1;
@@ -292,7 +284,6 @@ header {
 .breadcrumb a { color: var(--text-muted); text-decoration: none; }
 .breadcrumb a:hover { color: var(--gold-light); }
 
-/* ===== CONTAINER ===== */
 .container { max-width: 1360px; margin: 0 auto; padding: 28px 24px 80px; position: relative; z-index: 1; }
 .section-title {
     font-family: 'Sora', sans-serif; font-size: 1.3rem; font-weight: 700;
@@ -303,7 +294,6 @@ header {
     background: linear-gradient(180deg, var(--gold), var(--orange-deep)); border-radius: 4px;
 }
 
-/* ===== PRODUCT GRID ===== */
 .products-grid {
     display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; width: 100%;
     perspective: 1100px;
@@ -421,7 +411,6 @@ header {
 }
 .buy-btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
 
-/* ===== CATEGORIES HOME ===== */
 .categories-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; margin-bottom: 54px; perspective: 1100px; }
 .category-card {
     background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
@@ -433,14 +422,12 @@ header {
 .category-card h3 { font-family: 'Sora', sans-serif; font-size: 0.98rem; margin-bottom: 4px; letter-spacing: 0.3px; }
 .category-card p { font-size: 0.85rem; color: var(--text-muted); }
 
-/* ===== INFO BOXES ===== */
 .info-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 18px; margin-top: 10px; perspective: 1100px; }
 .info-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; }
 .info-box h3 { font-family: 'Sora', sans-serif; font-size: 1rem; margin-bottom: 8px; color: var(--gold-light); }
 .info-box p { color: var(--text-muted); line-height: 1.55; font-size: 0.95rem; }
 .info-box strong { color: var(--text-white); }
 
-/* ===== PRODUCT DETAIL ===== */
 .product-detail { max-width: 1120px; margin: 0 auto; padding: 20px 24px 80px; position: relative; z-index: 1; }
 .back-link { display: inline-flex; align-items: center; gap: 6px; color: var(--text-muted); text-decoration: none; font-weight: 600; margin-bottom: 20px; font-size: 0.9rem; }
 .back-link:hover { color: var(--gold-light); }
@@ -499,7 +486,6 @@ header {
 .payment-methods p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.5; }
 .payment-methods strong { color: var(--text-white); }
 
-/* ===== FOOTER ===== */
 footer {
     border-top: 1px solid var(--border); background: #0b0705; position: relative; z-index: 1;
     padding: 44px 24px 24px;
@@ -522,7 +508,6 @@ footer {
     color: var(--text-dim); font-size: 0.82rem;
 }
 
-/* ===== MODAL ===== */
 .modal-overlay {
     position: fixed; inset: 0; background: rgba(8, 5, 3, 0.8); backdrop-filter: blur(6px);
     z-index: 9999; display: flex; align-items: center; justify-content: center; padding: 20px;
@@ -561,7 +546,6 @@ footer {
 .modal-body::-webkit-scrollbar { width: 6px; }
 .modal-body::-webkit-scrollbar-thumb { background: var(--orange-deep); border-radius: 4px; }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 860px) {
     .hero-split { grid-template-columns: 1fr; text-align: center; }
     .hero-split p { margin-left: auto; margin-right: auto; }
